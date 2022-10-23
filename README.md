@@ -200,6 +200,9 @@ openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out
 - N'oublions pas le firewall
     * `sudo firewall-cmd --add-port=443/tcp --permanent`
     * `sudo firewall-cmd --add-port=80/tcp --permanent`
+- Il faut aussi desactiver SELinux
+    * `sudo setenforce 0`
+    * Et remplacer `enforcing` par `permissive` sur la ligne non commentée du fichier `/etc/selinux/config`
 ---
 Normalement tout est bon, il ne reste plus qu'à lancer le service nginx
 
