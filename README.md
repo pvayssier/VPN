@@ -1,5 +1,19 @@
 # VPN
 
+# Sommaire
+
+- [VPN](#vpn)
+- [Sommaire](#sommaire)
+- [Présentation du projet](#présentation-du-projet)
+- [1. Installation des paquets](#1-installation-des-paquets)
+- [2. Générer les clés](#2-générer-les-clés)
+- [3. Configurations de WireGuard](#3-configurations-de-wireguard)
+- [4. Modification du firewall de votre serveur](#4-modification-du-firewall-de-votre-serveur)
+- [5. Lançons le service](#5-lançons-le-service)
+- [6. Connectons un client](#6-connectons-un-client)
+- [7. Interface](#7-interface)
+
+
 # Présentation du projet
 
 Ce projet a pour but de créer un VPN (Virtual Private Network) à l'aide de WireGuard sur une machine Rocky8 avec une interface.
